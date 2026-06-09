@@ -60,9 +60,7 @@
         "Engineered scalable backend microservices for Ziply Fiber's Quote-to-Order lifecycle, including Quote, Order, Payment, and Order Tracking services.", 
         "Designed and developed secure REST APIs using Spring Boot to support enterprise telecom order management workflows.", 
         "Built event-driven workflows using Apache Kafka for asynchronous communication between microservices, improving scalability, reliability, and fault tolerance.", 
-        "Integrated Salesforce with Microsoft Dynamics to enable seamless bidirectional synchronization of customer and order data.", "Developed secure payment and order processing services, ensuring reliable transaction handling and business continuity.", 
-        "Optimized backend API performance by reducing payload sizes, eliminating redundant service calls, and improving response times.", 
-        "Implemented structured logging, exception handling, monitoring, and secure coding practices to improve production observability and maintainability." 
+        "Integrated Salesforce with Microsoft Dynamics to enable seamless bidirectional synchronization of customer and order data.", "Developed secure payment and order processing services, ensuring reliable transaction handling and business continuity."
       ]
     },
     {
@@ -172,7 +170,7 @@
   {
     "title": "AcaRAG-Pro – AI Chatbot for Academic Support",
     "description": "Engineered a production-grade Retrieval-Augmented Generation (RAG) chatbot using FastAPI, GROQ LLM, and ChromaDB to answer questions from institutional PDFs. Implemented multi-level Cache-Augmented Generation (CAG), reducing repeated query latency from 3–4 seconds to 0.5 seconds while improving response efficiency and user experience.",
-    "image_url": "/assets/img/projects/acarag-pro.png",
+    "image_url": "/assets/img/projects/Acaragpro.jpeg",
     "stack": ["FastAPI", "GROQ", "ChromaDB", "RAG"],
     "stack_colors": ["009688", "FF6B35", "5B21B6", "10A37F"],
     "stack_logos": ["fastapi", "openai", "chromadb", "openai"],
@@ -182,7 +180,7 @@
   {
     "title": "Transac-NOVA – AI Transaction Intelligence System",
     "description": "Designed a high-throughput AI transaction intelligence platform using FastAPI microservices for large-scale financial transaction ingestion and analytics. Integrated anomaly detection models with Retrieval-Augmented Generation (RAG) to detect fraudulent activities and generate intelligent financial insights in real time.",
-    "image_url": "/assets/img/projects/transac-nova.png",
+    "image_url": "/assets/img/projects/transacNova.jpeg",
     "stack": ["FastAPI", "Python", "Machine Learning", "Docker"],
     "stack_colors": ["009688", "3776AB", "F7931E", "2496ED"],
     "stack_logos": ["fastapi", "python", "scikitlearn", "docker"],
@@ -192,7 +190,7 @@
   {
     "title": "AI Code Reviewer",
     "description": "Built an AI-powered code review platform that analyzes Git repositories and ZIP projects for bugs, code quality, and security issues. Integrated GPT with LangChain to provide contextual recommendations and best-practice improvements using a FastAPI backend and React frontend.",
-    "image_url": "/assets/img/projects/ai-code-reviewer.png",
+    "image_url": "/assets/img/projects/aiCodeReviewer.jpeg",
     "stack": ["React", "FastAPI", "LangChain", "OpenAI"],
     "stack_colors": ["61DAFB", "009688", "1C3C3C", "10A37F"],
     "stack_logos": ["react", "fastapi", "langchain", "openai"],
@@ -202,7 +200,7 @@
   {
     "title": "AI Meeting Summarizer",
     "description": "Developed an AI meeting assistant that converts meeting recordings into transcripts using OpenAI Whisper and generates concise summaries with GPT. Automatically extracts key discussion points, action items, and decisions through a FastAPI backend and Streamlit interface.",
-    "image_url": "/assets/img/projects/meeting-summarizer.png",
+    "image_url": "/assets/img/projects/aiMeetingSummarizer.jpeg",
     "stack": ["FastAPI", "Whisper", "OpenAI", "Streamlit"],
     "stack_colors": ["009688", "10A37F", "412991", "FF4B4B"],
     "stack_logos": ["fastapi", "openai", "openai", "streamlit"],
@@ -212,7 +210,7 @@
   {
     "title": "Food Delivery Web Platform",
     "description": "Developed a scalable MERN-based food ordering platform featuring secure Stripe payment integration, RESTful APIs for authentication and order management, and optimized backend services for high-performance database operations.",
-    "image_url": "/assets/img/projects/food-delivery.png",
+    "image_url": "/assets/img/projects/Foodie.jpeg",
     "stack": ["MongoDB", "Express", "React", "Node.js"],
     "stack_colors": ["47A248", "000000", "61DAFB", "339933"],
     "stack_logos": ["mongodb", "express", "react", "nodedotjs"],
@@ -222,7 +220,7 @@
   {
     "title": "Prescripto – Doctor Appointment Platform",
     "description": "Built a full-stack healthcare platform with Patient, Doctor, and Admin dashboards using the MERN stack. Implemented JWT authentication, secure appointment scheduling, and integrated Stripe and Razorpay payment gateways.",
-    "image_url": "/assets/img/projects/prescripto.png",
+    "image_url": "/assets/img/projects/Prescripto.jpeg",
     "stack": ["MongoDB", "Express", "React", "Node.js"],
     "stack_colors": ["47A248", "000000", "61DAFB", "339933"],
     "stack_logos": ["mongodb", "express", "react", "nodedotjs"],
@@ -232,7 +230,7 @@
   {
     "title": "Aqua Guard – IoT Water Quality Monitoring",
     "description": "Built an IoT-based real-time water quality monitoring system using ESP32 sensors and Firebase cloud services. Implemented machine learning models to predict water quality trends from historical sensor data for aquaculture applications.",
-    "image_url": "/assets/img/projects/aqua-guard.png",
+    "image_url": "/assets/img/projects/Aquagaurd.jpeg",
     "stack": ["ESP32", "Firebase", "Python", "Machine Learning"],
     "stack_colors": ["E7352C", "FFCA28", "3776AB", "F7931E"],
     "stack_logos": ["espressif", "firebase", "python", "scikitlearn"],
@@ -240,9 +238,9 @@
     "live_url": ""
   },
   {
-    "title": "Prosthetic Arm Control Using EMG Signals",
+    "title": "Myosync – EMG-Based Prosthetic Arm Control",
     "description": "Developed a real-time prosthetic arm control system using EMG signal acquisition and machine learning-based gesture recognition. Implemented Raspberry Pi-powered control pipelines for assistive healthcare applications and contributed to a patent-worthy innovation.",
-    "image_url": "/assets/img/projects/prosthetic-arm.png",
+    "image_url": "/assets/img/projects/Myosync.jpeg",
     "stack": ["Python", "Raspberry Pi", "Machine Learning", "IoT"],
     "stack_colors": ["3776AB", "C51A4A", "F7931E", "00979D"],
     "stack_logos": ["python", "raspberrypi", "scikitlearn", "arduino"],
