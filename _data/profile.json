@@ -23,139 +23,270 @@
     "enabled": true
   },
 
-  "name": "{ TheProFile }",
-  "headline": "The Portfolio-as-Code Template with Zero code & Maximum Impact.",
-  "email": "srisatyalokesh@duck.com",
-  "profile_image_url": "/assets/img/logo.png",
-  "resume_url": "https://github.com/SriSatyaLokesh/theprofile",
-  "bio": "I am a high-fidelity, single-page Jekyll template born from a deep-seated hatred for drag-and-drop builders. I live in a single JSON file and dream of pixel-perfect glassmorphism. I don't need a CV; I am the CV. I'm here to ensure your career looks like it was built by a team of Silicon Valley designers, even if you just finished your second coffee.",
+  "name": "{ Sai Sahithi Kontam }",
+  "headline": "Backend Software Engineer | AI/ML Engineer | Building Scalable APIs, Intelligent Systems & AI Applications",
+  "email": "sahitikontam@gmail.com",
+  "profile_image_url": "/assets/img/profile.jpg",
+  "resume_url": "/assets/resume/Sai_Sahithi_Kontam_Resume.pdf",
 
-  "social": [
-    { "platform": "GitHub",    "url": "https://github.com/SriSatyaLokesh/theprofile",       "logo": "github",       "color": "181717" },
-    { "platform": "Twitter",   "url": "https://twitter.com",                          "logo": "twitter",      "color": "1DA1F2" },
-    { "platform": "LinkedIn",  "url": "https://linkedin.com",                         "logo": "linkedin",     "color": "0A66C2" },
-    { "platform": "Dev.to",    "url": "https://dev.to",                               "logo": "devdotto",     "color": "0A0A0A" }
-  ],
+"social": [
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/sahithiK04",
+    "logo": "github",
+    "color": "181717"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/sahithi-kontam",
+    "logo": "linkedin",
+    "color": "0A66C2"
+  },
+  {
+    "platform": "Email",
+    "url": "mailto:sahitikontam@gmail.com",
+    "logo": "gmail",
+    "color": "EA4335"
+  }
+],
 
   "experience": [
     {
-      "role": "Senior Portfolio Engine",
-      "company": "GitHub Pages",
-      "company_url": "https://pages.github.com",
+      "role": "SoftwareEngineer",
+      "company": "Dhan AI",
+      "company_url": "https://dhan.ai/",
       "duration": "Jan 2026 – Present",
       "description": [
-        "Automated the career glow-up of thousands of developers by providing 6 interactable WebGL backgrounds they didn't know they needed.",
-        "Reduced 'Time to Landing Page' from weeks of CSS wrestling to 3 minutes of JSON editing — causing a 400% increase in developer confidence.",
-        "Successfully defended the 'Portfolio-as-Code' philosophy against the invading forces of drag-and-drop website builders.",
-        "Implemented a Dual-Trigger Easter Egg discovery system: Double-click the status badge for a background shockwave, or the Navbar logo for a sequential branding makeover.",
-        "Engineered a context-aware theme engine that intelligently preserves readability by selectively applying color palettes based on Light/Dark mode state."
+        "Engineered scalable backend microservices for Ziply Fiber's Quote-to-Order lifecycle, including Quote, Order, Payment, and Order Tracking services.", 
+        "Designed and developed secure REST APIs using Spring Boot to support enterprise telecom order management workflows.", 
+        "Built event-driven workflows using Apache Kafka for asynchronous communication between microservices, improving scalability, reliability, and fault tolerance.", 
+        "Integrated Salesforce with Microsoft Dynamics to enable seamless bidirectional synchronization of customer and order data.", "Developed secure payment and order processing services, ensuring reliable transaction handling and business continuity.", 
+        "Optimized backend API performance by reducing payload sizes, eliminating redundant service calls, and improving response times.", 
+        "Implemented structured logging, exception handling, monitoring, and secure coding practices to improve production observability and maintainability." 
       ]
     },
     {
-      "role": "Lead CSS Wrestler",
-      "company": "The Internet",
-      "company_url": "https://www.w3.org",
-      "duration": "Oct 2025 – Present",
+      "role": "TeamLead for Software Development",
+      "company": "EPICS",
+      "company_url": "https://epics.engineering.asu.edu/",
+      "duration": "Feb 2025 – Dec 2025",
       "description": [
-        "Centering a <div> while simultaneously maintaining Backdrop Blur (12px) without causing a browser meltdown.",
-        "Optimized GSAP entrance choreography to be 45% more 'satisfying' according to highly scientific internal audits.",
-        "Engineered a glassmorphism navigation system so floating it actually feels like it's made of real glass (without the risk of cuts).",
-        "Wrote 1,000+ lines of SCSS using CSS Custom Properties so users don't have to look at hex codes ever again."
+        "Developed an IoT-based real-time water quality monitoring system in collaboration with Arizona State University (ASU) – EPICS.",
+        "Monitored pH, salinity, and turbidity using ESP32 sensors with cloud integration via Firebase.",
+        "Implemented machine learning models to predict water quality trends for the next 7 days using historical sensor data.",
+        "Designed as a commercial product planned for launch on Amazon and Flipkart at an affordable price point."
+      ] 
+    },
+    {
+      "role": "ProjectManager",
+      "company": "Assitive Technology Lab",
+      "company_url": "https://svecw.edu.in/assistive-technology-lab-atl/",
+      "duration": "Sep2024 – Dec 2024",
+      "description": [
+        "Developed a real-time prosthetic arm control system using EMG signal acquisition and ML-based gesture recognition",
+        "Implemented gesture-based limb movement using Raspberry Pi and Python",
+        "Recognized as a patent project for innovation in assistive healthcare technology"
+      ] 
+    },
+    {
+      "role": "Artificial Intelligence Internship",
+      "company": "SkillDzire",
+      "company_url": "https://lms.skilldzire.com/",
+      "duration": "jan 2025 – mar 2025",
+      "description": [
+        "Built ML models with 90% accuracy using Python and Scikit-learn; documented data preprocessing and results for governance and audit purposes."
+      ]
+    },
+    {
+      "role": "Summer Internship",
+      "company": "Google For developers",
+      "company_url": "https://developers.google.com/",
+      "duration": "May 2024 – June 2024",
+      "description": [
+        "Implemented supervised and unsupervised ML models ensuring reproducibility and compliance; optimized ML algorithms for improved performance on real datasets."
       ]
     }
   ],
 
-  "skills": [
-    {
-      "category": "Frontend Soul",
-      "items": ["Jekyll", "Liquid Magic", "SCSS Architect", "GSAP Moves"],
-      "logos": ["jekyll", "shopify", "sass", "greensock"]
-    },
-    {
-      "category": "Data Brain",
-      "items": ["JSON Schema", "Git Workflows", "Actions Automation", "YAML Whispering"],
-      "logos": ["json", "git", "githubactions", "github"]
-    },
-    {
-      "category": "Visual Heart",
-      "items": ["Vanta.js", "Three.js", "WebGL", "Glassmorphism"],
-      "logos": ["visualstudiocode", "threejs", "webgl", "css3"]
-    }
-  ],
-
+"skills": [
+  {
+    "category": "Programming Languages",
+    "items": ["Java","Python","JavaScript","TypeScript"],
+    "logos": ["openjdk", "python","javascript", "typescript"]
+  },
+  {
+    "category": "Backend Development",
+    "items": ["Spring Boot","FastAPI","REST APIs","Microservices"],
+    "logos": ["springboot","fastapi","openapiinitiative","docker"]
+  },
+  {
+    "category": "AI & Machine Learning",
+    "items": ["Machine Learning","LLMs","Prompt Engineering","TensorFlow"],
+    "logos": ["scikitlearn","openai","openai","tensorflow"]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": ["Docker","Git","GitHub Actions","CI/CD"],
+    "logos": ["docker","git","githubactions","github"]
+  },
+  {
+    "category": "Databases & Messaging",
+    "items": ["MySQL","MongoDB","Apache Kafka","Firebase"],
+    "logos": ["mysql","mongodb","apachekafka","firebase"]
+  },
+  {
+    "category": "Frontend",
+    "items": ["React","HTML5","CSS3","Tailwind CSS"],
+    "logos": ["react","html5","css3","tailwindcss"]
+  }
+],
   "education": [
     {
-      "degree": "PhD in Zero-Code Architecture",
-      "institution": "University of Open Source",
-      "year": "2026",
+      "degree": "Bachelor of Computer Science - AIML Specialization",
+      "institution": "Shri Vishnu Engineering College for Women",
+      "year": "2022-2026",
       "description": [
-        "Defended a groundbreaking thesis on why developers should spend time coding features, not fighting with HTML boilerplate.",
-        "Minor in 'Monochromatic Theme Synchronization' — proving that any website looks elite with the right accent color.",
-        "Dean's List for 'Most Optimized Jekyll Build Time' (2025)."
+        "Graduating with a 9.1 CGPA, I mastered core computer science concepts and specialized in AI/ML, completing projects in NLP, computer vision, and deep learning.",
+        "Led a team to develop an IoT-based water quality monitoring system, showcasing my ability to apply AI/ML in real-world scenarios and manage end-to-end project development."
       ]
     },
     {
-      "degree": "Master of Portfolio Automation",
-      "institution": "Self-Taught via SriSatyaLokesh",
-      "year": "2025",
+      "intermediate": "Intermediate in MPC",
+      "institution": "Tirumala Junior College",
+      "year": "2020-2022",
       "description": [
-        "Mastered the art of JSON-to-Elite-Portfolio transformation.",
-        "Learned to orchestrate GSAP and Vanta.js for maximum cinematic impact."
+        "secured 953 marks out of 1000 with a percentage of 95.3% in the intermediate examination conducted by the Board of Intermediate Education, Andhra Pradesh."
+      ]
+    },
+    {
+      "SSC": "Secondary School Certificate",
+      "institution": "Tirumala English Medium School",
+      "year": "2019-2020",
+      "description": [
+        "secured 599 marks out of 600 with a percentage of 99.8% in the secondary school certificate examination conducted by the Board of Secondary Education, Andhra Pradesh."
       ]
     }
   ],
 
   "projects": [
-    {
-      "title": "{ TheProFile }",
-      "description": "A high-fidelity Portfolio-as-Code template. Focus on content in a single JSON file while the engine handles design, cinematic audio, and WebGL. Pro-tip: Double-click the Navbar logo for a branding makeover, or the 'Available for work' badge for background magic.",
-      "image_url": "/assets/img/theprofile.png",
-      "stack":        ["Jekyll",    "SCSS",     "GSAP"],
-      "stack_colors": ["CC0000",    "1572B6",   "88CE02"],
-      "stack_logos":  ["jekyll",    "css3",     "greensock"],
-      "code_url": "https://github.com/SriSatyaLokesh/theprofile",
-      "live_url": "https://srisatyalokesh.github.io/theprofile/"
-    },
-    {
-      "title": "Open Certificate Generator",
-      "description": "An automated bulk certificate generation engine. Designed for hackathons and organizations to generate branded, professional certificates from raw data in seconds.",
-      "image_url": "https://srisatyalokesh.github.io/open-certificate-generator/assets/img/og-default.jpg",
-      "stack":        ["React",     "Canvas API", "Node.js"],
-      "stack_colors": ["61DAFB",    "000000",     "339933"],
-      "stack_logos":  ["react",     "html5",      "nodedotjs"],
-      "code_url": "https://github.com/SriSatyaLokesh/open-certificate-generator",
-      "live_url": "https://srisatyalokesh.github.io/open-certificate-generator/"
-    },
-    {
-      "title": "Copilot Team Workflow",
-      "description": "A comprehensive framework of standards and workflows for maximizing team velocity with GitHub Copilot. Includes optimized prompts and pair-programming patterns for elite teams.",
-      "image_url": "https://images.ctfassets.net/8aevphvgewt8/2Zamxo7a7F9K9jsTAl2EGA/bce1f04a40536e89ef543cb311f2968b/github-copilot-cli.png",
-      "stack":        ["AI Prompts", "Workflows", "Git"],
-      "stack_colors": ["4F46E5",     "000000",    "F05032"],
-      "stack_logos":  ["openai",     "github",    "git"],
-      "code_url": "https://github.com/SriSatyaLokesh/copilot-team-workflow",
-      "live_url": "https://srisatyalokesh.github.io/copilot-team-workflow/"
-    }
-  ],
+  {
+    "title": "AcaRAG-Pro – AI Chatbot for Academic Support",
+    "description": "Engineered a production-grade Retrieval-Augmented Generation (RAG) chatbot using FastAPI, GROQ LLM, and ChromaDB to answer questions from institutional PDFs. Implemented multi-level Cache-Augmented Generation (CAG), reducing repeated query latency from 3–4 seconds to 0.5 seconds while improving response efficiency and user experience.",
+    "image_url": "/assets/img/projects/acarag-pro.png",
+    "stack": ["FastAPI", "GROQ", "ChromaDB", "RAG"],
+    "stack_colors": ["009688", "FF6B35", "5B21B6", "10A37F"],
+    "stack_logos": ["fastapi", "openai", "chromadb", "openai"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "Transac-NOVA – AI Transaction Intelligence System",
+    "description": "Designed a high-throughput AI transaction intelligence platform using FastAPI microservices for large-scale financial transaction ingestion and analytics. Integrated anomaly detection models with Retrieval-Augmented Generation (RAG) to detect fraudulent activities and generate intelligent financial insights in real time.",
+    "image_url": "/assets/img/projects/transac-nova.png",
+    "stack": ["FastAPI", "Python", "Machine Learning", "Docker"],
+    "stack_colors": ["009688", "3776AB", "F7931E", "2496ED"],
+    "stack_logos": ["fastapi", "python", "scikitlearn", "docker"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "AI Code Reviewer",
+    "description": "Built an AI-powered code review platform that analyzes Git repositories and ZIP projects for bugs, code quality, and security issues. Integrated GPT with LangChain to provide contextual recommendations and best-practice improvements using a FastAPI backend and React frontend.",
+    "image_url": "/assets/img/projects/ai-code-reviewer.png",
+    "stack": ["React", "FastAPI", "LangChain", "OpenAI"],
+    "stack_colors": ["61DAFB", "009688", "1C3C3C", "10A37F"],
+    "stack_logos": ["react", "fastapi", "langchain", "openai"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "AI Meeting Summarizer",
+    "description": "Developed an AI meeting assistant that converts meeting recordings into transcripts using OpenAI Whisper and generates concise summaries with GPT. Automatically extracts key discussion points, action items, and decisions through a FastAPI backend and Streamlit interface.",
+    "image_url": "/assets/img/projects/meeting-summarizer.png",
+    "stack": ["FastAPI", "Whisper", "OpenAI", "Streamlit"],
+    "stack_colors": ["009688", "10A37F", "412991", "FF4B4B"],
+    "stack_logos": ["fastapi", "openai", "openai", "streamlit"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "Food Delivery Web Platform",
+    "description": "Developed a scalable MERN-based food ordering platform featuring secure Stripe payment integration, RESTful APIs for authentication and order management, and optimized backend services for high-performance database operations.",
+    "image_url": "/assets/img/projects/food-delivery.png",
+    "stack": ["MongoDB", "Express", "React", "Node.js"],
+    "stack_colors": ["47A248", "000000", "61DAFB", "339933"],
+    "stack_logos": ["mongodb", "express", "react", "nodedotjs"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "Prescripto – Doctor Appointment Platform",
+    "description": "Built a full-stack healthcare platform with Patient, Doctor, and Admin dashboards using the MERN stack. Implemented JWT authentication, secure appointment scheduling, and integrated Stripe and Razorpay payment gateways.",
+    "image_url": "/assets/img/projects/prescripto.png",
+    "stack": ["MongoDB", "Express", "React", "Node.js"],
+    "stack_colors": ["47A248", "000000", "61DAFB", "339933"],
+    "stack_logos": ["mongodb", "express", "react", "nodedotjs"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "Aqua Guard – IoT Water Quality Monitoring",
+    "description": "Built an IoT-based real-time water quality monitoring system using ESP32 sensors and Firebase cloud services. Implemented machine learning models to predict water quality trends from historical sensor data for aquaculture applications.",
+    "image_url": "/assets/img/projects/aqua-guard.png",
+    "stack": ["ESP32", "Firebase", "Python", "Machine Learning"],
+    "stack_colors": ["E7352C", "FFCA28", "3776AB", "F7931E"],
+    "stack_logos": ["espressif", "firebase", "python", "scikitlearn"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  },
+  {
+    "title": "Prosthetic Arm Control Using EMG Signals",
+    "description": "Developed a real-time prosthetic arm control system using EMG signal acquisition and machine learning-based gesture recognition. Implemented Raspberry Pi-powered control pipelines for assistive healthcare applications and contributed to a patent-worthy innovation.",
+    "image_url": "/assets/img/projects/prosthetic-arm.png",
+    "stack": ["Python", "Raspberry Pi", "Machine Learning", "IoT"],
+    "stack_colors": ["3776AB", "C51A4A", "F7931E", "00979D"],
+    "stack_logos": ["python", "raspberrypi", "scikitlearn", "arduino"],
+    "code_url": "https://github.com/sahithiK04",
+    "live_url": ""
+  }
+],
 
-  "recommendations": [
-    {
-      "text": "I built TheProFile specifically to solve my own frustration with complex portfolio maintenance. Pro-tip: Double-click the 'Available for opportunities' badge for a little surprise.",
-      "name": "SriSatyaLokesh",
-      "title": "Creator of TheProFile",
-      "linkedin_url": "https://www.linkedin.com/in/srisatyalokesh"
-    },
-    {
-      "text": "TheProFile is so good, it actually convinced me to stop using React for a simple landing page. My Lighthouse score is 100/100 and my hands are finally clean of node_modules.",
-      "name": "A Grateful Developer",
-      "title": "Escaped React Dev",
-      "linkedin_url": ""
-    },
-    {
-      "text": "The Portfolio-as-Code philosophy is exactly what I needed. I spend all day in VS Code; why would I want to build my site in a browser drag-and-drop tool?",
-      "name": "Backend Guru",
-      "title": "Senior YAML Architect",
-      "linkedin_url": ""
-    }
-  ]
+  "certifications": [
+  {
+    "text": "Earned the Claude AI Engineer Certification, demonstrating proficiency in prompt engineering, AI-assisted software development, agentic workflows, and building production-ready AI applications using Claude.",
+    "name": "Claude AI Engineer",
+    "title": "Skilljar",
+    "linkedin_url": ""
+  },
+  {
+    "text": "AWS Security certification covering cloud security fundamentals, identity and access management (IAM), data protection, compliance, and secure cloud architecture.",
+    "name": "AWS Security",
+    "title": "Infosys Springboard",
+    "linkedin_url": ""
+  },
+  {
+    "text": "Completed Oracle Cloud Infrastructure AI Foundations, gaining knowledge of AI, Machine Learning, Generative AI, Large Language Models, and Oracle Cloud AI services.",
+    "name": "Oracle Cloud Infrastructure AI Foundations",
+    "title": "Oracle Academy",
+    "linkedin_url": ""
+  },
+  {
+    "text": "Completed Machine Learning Onramp, covering supervised learning, model training, evaluation, regression, classification, and practical ML workflows.",
+    "name": "Machine Learning Onramp",
+    "title": "MathWorks",
+    "linkedin_url": ""
+  },
+  {
+    "text": "Completed Fundamentals of Artificial Intelligence and Machine Learning, covering core AI concepts, neural networks, deep learning, and real-world AI applications.",
+    "name": "Fundamentals of AI & Machine Learning",
+    "title": "Infosys Springboard",
+    "linkedin_url": ""
+  },
+  {
+    "text": "Completed French Language Certification, demonstrating proficiency in French language communication and cross-cultural understanding.",
+    "name": "French Language Certification",
+    "title": "Certified Language Program",
+    "linkedin_url": ""
+  }
+]
 }

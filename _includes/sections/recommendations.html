@@ -1,45 +1,46 @@
 <!-- 
-  TheProFile — Recommendations Section
-  A grid of peer/manager testimonials.
-  Data: site.data.profile.recommendations
+  TheProFile — Certifications Section
+  A grid of certifications earned and verified credentials.
+  Data: site.data.profile.certifications
 -->
-<section id="recommendations" class="recommendations section-wrapper" aria-label="Peer Recommendations">
+<section id="certifications" class="certifications section-wrapper" aria-label="Certifications">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">Recommendations</h2>
+      <h2 class="section-title">Certifications</h2>
     </div>
 
-    <!-- Recommendations Grid -->
-    <div class="recommendations__grid">
-      {% for rec in site.data.profile.recommendations %}
-        <article class="rec-card" role="article">
-          
-          <!-- Testimonial Quote -->
-          <blockquote class="rec-card__quote">
-            <p>{{ rec.text }}</p>
-          </blockquote>
+    <!-- Certifications Grid -->
+    <div class="certifications__grid">
+      {% assign certifications = site.data.profile.certifications | default: site.data.profile.Certifications | default: site.data.profile.recommendations | default: empty %}
+      {% for cert in certifications %}
+        {% assign cert_title = cert.name | default: cert.title %}
+        {% assign cert_issuer = cert.issuer | default: cert.title %}
+        {% assign cert_url = cert.url | default: cert.linkedin_url %}
 
-          <!-- Author attribution -->
-          <footer class="rec-card__footer">
-            <cite class="rec-card__name">{{ rec.name }}</cite>
-            
-            {% if rec.title and rec.title != "" %}
-              <span class="rec-card__title">{{ rec.title }}</span>
+        <article class="cert-card" role="article">
+          <div class="cert-card__header">
+            <h3 class="cert-card__name">{{ cert_title }}</h3>
+            {% if cert_issuer and cert_issuer != cert_title %}
+              <span class="cert-card__issuer">{{ cert_issuer }}</span>
             {% endif %}
-            
-            {% if rec.linkedin_url and rec.linkedin_url != "" %}
-              <a
-                href="{{ rec.linkedin_url }}"
-                class="rec-card__linkedin"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View {{ rec.name }} on LinkedIn"
-                aria-label="Visit {{ rec.name }}'s LinkedIn"
-              >
-                LinkedIn &rarr;
-              </a>
-            {% endif %}
-          </footer>
+          </div>
+
+          {% if cert.text and cert.text != "" %}
+            <p class="cert-card__description">{{ cert.text }}</p>
+          {% endif %}
+
+          {% if cert_url and cert_url != "" %}
+            <a
+              href="{{ cert_url }}"
+              class="cert-card__link"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View certificate details"
+              aria-label="View certificate details"
+            >
+              View credential details &rarr;
+            </a>
+          {% endif %}
         </article>
       {% endfor %}
     </div>

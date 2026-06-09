@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     createStagger(".experience__item", ".experience");
     createStagger(".education__item", ".education");
-    createStagger(".rec-card", ".recommendations");
+    createStagger(".cert-card", ".certifications");
 
     // ─── SKILLS BENTO GRID (2D Stagger) ───────────────────────────────────
     if (document.querySelector(".skills")) {

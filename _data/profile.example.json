@@ -138,23 +138,23 @@
     }
   ],
 
-  "recommendations": [
+  "certifications": [
     {
-      "text": "I built TheProFile specifically to solve my own frustration with complex portfolio maintenance. Pro-tip: Double-click the 'Available for opportunities' badge for a little surprise.",
-      "name": "SriSatyaLokesh",
-      "title": "Creator of TheProFile",
-      "linkedin_url": "https://www.linkedin.com/in/srisatyalokesh"
-    },
-    {
-      "text": "TheProFile is so good, it actually convinced me to stop using React for a simple landing page. My Lighthouse score is 100/100 and my hands are finally clean of node_modules.",
-      "name": "A Grateful Developer",
-      "title": "Escaped React Dev",
+      "text": "Completed the Claude AI Engineer Certification covering prompt engineering, AI-assisted software development, and agentic workflows.",
+      "name": "Claude AI Engineer",
+      "title": "Skilljar",
       "linkedin_url": ""
     },
     {
-      "text": "The Portfolio-as-Code philosophy is exactly what I needed. I spend all day in VS Code; why would I want to build my site in a browser drag-and-drop tool?",
-      "name": "Backend Guru",
-      "title": "Senior YAML Architect",
+      "text": "Earned the AWS Security certification covering cloud security fundamentals, IAM, data protection, and secure cloud architecture.",
+      "name": "AWS Security",
+      "title": "Infosys Springboard",
+      "linkedin_url": ""
+    },
+    {
+      "text": "Finished Oracle Cloud Infrastructure AI Foundations, gaining practical knowledge of AI, Machine Learning, and Oracle Cloud AI services.",
+      "name": "Oracle Cloud Infrastructure AI Foundations",
+      "title": "Oracle Academy",
       "linkedin_url": ""
     }
   ]
